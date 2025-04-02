@@ -1,0 +1,21 @@
+
+[package]
+name = "siedit"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4"
+encoding_rs = "0.8"
+
+
+# För framtida terminalgränssnitt (TUI)
+ratatui = "0.25"
+crossterm = "0.27"
+
+# För att integrera git-funktionalitet i framtiden
+git2 = "0.18"
+
+# För effektiv fil- och textparsing (ev. om du bygger parsern ut mer)
+nom = "7.1"
+
